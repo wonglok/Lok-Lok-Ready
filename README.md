@@ -7,14 +7,14 @@
 :D 
 
 Build Tech Used:
-WebPack
-WebPack Hot Reload for React
-BrowserSync
-Gulp
+1. WebPack
+2. WebPack Hot Reload for React
+3. BrowserSync
+4. Gulp
 
-KeyStone.js
-React.js
-React Router
-React Redux
-Socket.io
+5. KeyStone.js
+6. React.js
+7. React Router
+8. React Redux
+9. Socket.io
 
