@@ -47,8 +47,13 @@ exports = module.exports = function(app) {
 
 	// Views
 	app.get('/*', function(req, res) {
-		res.render('index.hbs');
+		res.locals.meta = {
+			desc: 'loklok-ready',
+			title: 'loklok-ready'
+		};
+	 	res.render('index.hbs');
 	});
+	// app.get('*', routes.views.index);
 	
 	// app.use(function(req, res) {
 	// 	res.render('index');
