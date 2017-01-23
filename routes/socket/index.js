@@ -29,7 +29,6 @@ exports = module.exports = function(){
 		socket.on('action', function(action) {
 			// console.log(socket.handshake.session);
 
-			console.log(socket.handshake.session);
 
 			switch (action.type) {
 				case types.WS_PING:
